@@ -1,0 +1,39 @@
+{
+  "products": [{
+      "id": "1",
+      "name": "Chair",
+      "image": "chair.jpg",
+      "price": "$39",
+      "colors": ["red"],
+      "condition": "New",
+      "description": "Wooden chair"
+    },
+    {
+      "id": "2",
+      "name": "Lamp",
+      "image": "lamp.jpg",
+      "price": "$319",
+      "colors": ["green", "blue"],
+      "condition": "Used",
+      "description": "Amazing lamp"
+    },
+    {
+      "id": "3",
+      "name": "Statue",
+      "image": "statue.jpg",
+      "price": "$239",
+      "colors": ["green"],
+      "condition": "Used",
+      "description": "Used Statue"
+    },
+    {
+      "id": "4",
+      "name": "Vase",
+      "image": "vase.jpg",
+      "price": "$79",
+      "colors": ["blue"],
+      "condition": "New",
+      "description": "Antique Vase"
+    }
+  ]
+}
