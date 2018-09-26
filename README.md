@@ -35,4 +35,4 @@ Re-run `npm install` after this
 - [ ] Run test cases located in **`__tests__`** folder by:
 `npm test`
 
-- [ ] Verify the test execution report in '**test-report.html**' generated inside the folder **integration_tests** 
+- [ ] Test execution report '**test-report.html**' is generated inside the folder **integration_tests** 
