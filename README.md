@@ -1,33 +1,38 @@
 # Puppeteer Example - Product Compare Page Test Automation
 
-Product comparison page build using **React** + **Redux** + **Bootstrap** + **SASS**
-
-It's build on top of [`create-react-app`](https://github.com/facebook/create-react-app)
-
-Usage
+Problem statement
 -
-Documentation how to *run*, *build* and *test* app
+- [ ] Given is a simple react example application to compare products
+- [ ] Write all possible test scenario that needs testing for this app in a spread sheet
+- [ ] Write a detailed manual Test Cases for only 2 out of the above written Test scenario
+- [ ] Automate the above 2 manual Test Cases using puppeteer and jest
 
-> https://github.com/facebook/create-react-app#npm-start-or-yarn-start
 
-License
+Solutions
+- 
+- [ ] Test Cases are in PDF file inside folder **integration_tests** with name "_**Test Scenario and Test Cases.pdf**_"
+- [ ] The 2 detailed Test Cases are Automated using puppeteer as an automation tool and jest as testing framework
+- [ ] Refer to **integration_tests** folder inside the project root folder for the complete puppeteer automation test framework
+- [ ] A special class `StepLogger` has been used to log the exact test case steps as mentioned in the Test Case section in the PDF
+- [ ] HTML report of test execution with name '**test-report.html**' is generated inside the folder **integration_tests**
+
+
+Instructions to setup the repo and run the Puppeteer tests
 -
-The MIT License (MIT). Please see License File for more information.
-
-Todo
-
-- [ ] Write tests
-- [ ] Integrate CI
-
-To install the dependencies run:
+- [ ] In root folder install the npm dependencies:
 `npm install`
 
-In case of error message: 
-Run:
+- [ ] In case of error during npm install, install windows dev tools by: 
 `npm install --global windows-build-tools`
+Re-run `npm install` after this
 
-After the dependencies have been installed, start the web-app by running command:
+- [ ] After the dependencies have been installed, start the web-app by:
 `npm start`
 
-Navigate to integration_tests/README.md to execute the automation tests
-# product-compare-test-automation
+- [ ] cd to folder **integration_tests** and install npm dependencies by:
+`npm install`
+
+- [ ] Run test cases located in **`__tests__`** folder by:
+`npm test`
+
+- [ ] Verify the test execution report in '**test-report.html**' generated inside the folder **integration_tests** 
