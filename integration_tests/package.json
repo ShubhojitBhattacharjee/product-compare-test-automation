@@ -12,7 +12,7 @@
     "jest-puppeteer": "^3.4.0",
     "log4js": "^3.0.5",
     "prettier": "^1.14.3",
-    "puppeteer": "1.8.0",
+    "puppeteer": "1.13.0",
     "puppeteer-core": "^1.8.0",
     "puppeteer-xpath": "^0.1.0",
     "rimraf": "^2.6.2",
